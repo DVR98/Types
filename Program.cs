@@ -59,38 +59,6 @@ namespace Types
             //return result
             Console.WriteLine("From extension method: Price: ${0}", total);
 
-            // Console.WriteLine("Please enter 1 if you want to use the deck class");
-            // //If user wants to use this class
-            // if(Console.ReadLine() == "1"){
-            //     //Instruct user
-            //     Console.WriteLine("To add card: Enter 1, To Read all cards: Enter 2");
-            //     //If user entered 1, Add card
-            //     if(Console.ReadLine() == "1"){
-            //         Console.WriteLine("Please enter the number of the card");
-            //         //Validation
-            //         var isInt = int.TryParse(Console.ReadLine(), out int number);
-            //         if(isInt && (number < 11)){
-            //             Console.WriteLine("Please enter the shape of the card");
-            //             string shape = Console.ReadLine();
-            //             Console.WriteLine("Adding Card...");
-            //             Deck.AddCard(1, number, shape);
-            //         }
-            //         else{
-            //             Console.WriteLine("You didn't enter a valid card number");
-            //         }
-            //     }
-            //     //If user entered 2, show all cards
-            //     else if(Console.ReadLine() == "2"){
-            //         Deck.ShowDeck();
-            //     }
-            //     else {
-            //         Console.WriteLine("Thank you, That's all!");
-            //     }
-            // }
-            // //If user doesn't want to use this class
-            // else{
-            //     Console.WriteLine("Thank you, That's all!");
-            // }
         }
     }
 
@@ -136,47 +104,7 @@ namespace Types
             _maximumNumberOfCards = maximumNumberOfCards;
         }
 
-        //Add card to deck
-        // public static void AddCard(int id, int num, string shape)
-        // {
-        //     if(Deck.Cards.Count < Deck._maximumNumberOfCards){
-        //         //Create card object with user input
-        //         var card = new Card{
-        //             Number = num,
-        //             Shape = shape
-        //         };
-
-        //         //Add card to list
-        //         Cards.Add(card);
-        //         //Show confirmation
-        //         Console.WriteLine("Card Added Successfully!");
-
-        //         Console.WriteLine("If you want to, Enter 1 to show all cards");
-        //         if(Console.ReadLine() == "1"){
-        //             ShowDeck();
-        //         }
-        //     }          
-        //     else {
-        //         Console.WriteLine("Maxmimum number of cards reached. Sorry!");
-        //     }
-        // }
-
-        //Show deck
-        // public static void ShowDeck(){
-        //     //Check if list isn't null or empty
-        //     // if((Cards.Count > 0) && (Cards != null)){
-        //         int i = 1;
-        //         //Display all cards
-        //         foreach(var item in Cards)
-        //         {
-        //             Console.WriteLine("Card {0}: {1} of {2}", i, item.Number, item.Shape);
-        //             i++;
-        //         }
-        //     // }
-        //     // else {
-        //     //     Console.WriteLine("No cards to show. Use the Deck.AddCard method to add cards");
-        //     // }
-        // }
+        
     }
 
     //Using Generic Types
