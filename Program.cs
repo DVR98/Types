@@ -59,6 +59,10 @@ namespace Types
             //return result
             Console.WriteLine("From extension method: Price: ${0}", total);
 
+            //Virtual Override method
+            var derived = new Derived();
+            int val = derived.MyMethod();
+            Console.WriteLine("From Derived: {0}", val);
         }
     }
 
@@ -147,7 +151,7 @@ namespace Types
 
     //Extension methods:
     //2 ways to extend existing type: 1) Extension methods, 2) Overriding
-    //Product type
+    //1) Extension methods: Calculate discounts on products
     public class Product
     {
         public decimal Price { get; set; }
@@ -165,6 +169,25 @@ namespace Types
         public decimal CalculateDiscount(Product p){
             //use extension method
             return p.Discount();
+        }
+    }
+
+    //2) Overriding methods
+    //When class is declared as virtual, the method can be overridden from derived class
+    class Base 
+    {
+        public virtual int MyMethod(){
+            return 42;
+        }
+    }
+
+    //Inherit from base class
+    class Derived : Base 
+    {
+        public override int MyMethod()
+        {
+            var val = base.MyMethod() * 2;
+            return val;
         }
     }
 }
