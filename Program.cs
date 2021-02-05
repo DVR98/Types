@@ -102,9 +102,7 @@ namespace Types
         //Constructor
         public Deck(int maximumNumberOfCards){
             _maximumNumberOfCards = maximumNumberOfCards;
-        }
-
-        
+        }      
     }
 
     //Using Generic Types
