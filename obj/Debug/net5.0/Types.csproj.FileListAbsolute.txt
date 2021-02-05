@@ -1,0 +1,16 @@
+D:\Durant\Projects\Types\bin\Debug\net5.0\Types.exe
+D:\Durant\Projects\Types\bin\Debug\net5.0\Types.deps.json
+D:\Durant\Projects\Types\bin\Debug\net5.0\Types.runtimeconfig.json
+D:\Durant\Projects\Types\bin\Debug\net5.0\Types.runtimeconfig.dev.json
+D:\Durant\Projects\Types\bin\Debug\net5.0\Types.dll
+D:\Durant\Projects\Types\bin\Debug\net5.0\ref\Types.dll
+D:\Durant\Projects\Types\bin\Debug\net5.0\Types.pdb
+D:\Durant\Projects\Types\obj\Debug\net5.0\Types.csprojAssemblyReference.cache
+D:\Durant\Projects\Types\obj\Debug\net5.0\Types.GeneratedMSBuildEditorConfig.editorconfig
+D:\Durant\Projects\Types\obj\Debug\net5.0\Types.AssemblyInfoInputs.cache
+D:\Durant\Projects\Types\obj\Debug\net5.0\Types.AssemblyInfo.cs
+D:\Durant\Projects\Types\obj\Debug\net5.0\Types.csproj.CoreCompileInputs.cache
+D:\Durant\Projects\Types\obj\Debug\net5.0\Types.dll
+D:\Durant\Projects\Types\obj\Debug\net5.0\ref\Types.dll
+D:\Durant\Projects\Types\obj\Debug\net5.0\Types.pdb
+D:\Durant\Projects\Types\obj\Debug\net5.0\Types.genruntimeconfig.cache
